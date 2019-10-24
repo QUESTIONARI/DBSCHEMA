@@ -10,14 +10,14 @@ CREATE TABLE QUESTIONARI_USERMANAGEMENT_ACCESS
 
 CREATE TABLE QUESTIONARI_USERMANAGEMENT_ANAGRAPHIC
 (
-	ID smallint Primary key,
-	Name varchar(255) default null,
-	Surname varchar(255) default null,
-	Birth_date varchar(255) default null,
-	Telephone varchar(255) default null,
-	City varchar(255) default null,
-	Birth_place varchar(255) default null,
-	Gender varchar(255) default null
+	ID SMALLINT PRIMARY KEY,
+	Name VARCHAR(255) DEFAULT NULL,
+	Surname VARCHAR(255) DEFAULT NULL,
+	Birth_date VARCHAR(255) DEFAULT NULL,
+	Telephone VARCHAR(255) DEFAULT NULL,
+	City VARCHAR(255) DEFAULT NULL,
+	Birth_place VARCHAR(255) DEFAULT NULL,
+	Gender VARCHAR(255) DEFAULT NULL
 );
 
 CREATE TABLE QUESTIONARI_USERMANAGEMENT_PERMISSION
