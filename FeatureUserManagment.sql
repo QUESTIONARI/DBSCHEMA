@@ -1,11 +1,11 @@
 CREATE TABLE QUESTIONARI_USERMANAGEMENT_ACCESS
 (
-	ID smallint Primary key,
-	Username varchar(255) not null,
-	Password varchar(255) not null,
-	Email varchar(255) not null,
-	ID_Anagraphic smallint default null,
-	ID_Permission smallint not null
+	ID SMALLINT PRIMARY KEY,
+	Username VARCHAR(255) NOT NULL,
+	Password VARCHAR(255) NOT NULL,
+	Email VARCHAR(255) NOT NULL,
+	ID_Anagraphic SMALLINT DEFAULT NULL,
+	ID_Permission SMALLINT NOT NULL
 );
 
 CREATE TABLE QUESTIONARI_USERMANAGEMENT_ANAGRAPHIC
